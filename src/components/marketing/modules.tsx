@@ -268,7 +268,7 @@ export function Modules() {
               role="tablist"
               aria-orientation="vertical"
               aria-label="Module groups"
-              className="flex gap-2 overflow-x-auto pb-2 lg:flex-col lg:overflow-visible lg:pb-0"
+              className="flex gap-2 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] lg:flex-col lg:overflow-visible lg:pb-0 [&::-webkit-scrollbar]:hidden"
             >
               {GROUPS.map((group, index) => {
                 const selected = group.id === activeId;
@@ -286,8 +286,8 @@ export function Modules() {
                     onClick={() => setActiveId(group.id)}
                     onKeyDown={(event) => handleKeyDown(event, index)}
                     className={cn(
-                      "relative flex shrink-0 items-center gap-3 rounded-xl px-4 py-3 text-left transition-colors lg:w-full",
-                      selected ? "text-ink" : "text-ink-muted hover:text-ink",
+                      "relative flex min-h-12 shrink-0 items-center gap-3 rounded-xl px-3.5 py-3 text-left transition-colors sm:px-4 lg:w-full",
+                      selected ? "text-slate-900" : "text-slate-600 hover:text-slate-900",
                     )}
                   >
                     {selected ? (
@@ -337,7 +337,7 @@ export function Modules() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -8 }}
                 transition={{ duration: 0.3, ease: [0.22, 0.61, 0.36, 1] }}
-                className="card relative h-full overflow-hidden p-8"
+                className="card relative h-full overflow-hidden p-5 sm:p-8"
               >
                 <div
                   aria-hidden="true"
@@ -346,8 +346,12 @@ export function Modules() {
 
                 <div className="relative flex flex-wrap items-start justify-between gap-4">
                   <div>
-                    <h3 className="display text-2xl text-ink">{active.name}</h3>
-                    <p className="mt-2 max-w-xl text-ink-muted">{active.summary}</p>
+                    <h3 className="display text-xl text-slate-900 sm:text-2xl">
+                      {active.name}
+                    </h3>
+                    <p className="mt-2 max-w-xl text-[0.95rem] leading-7 text-slate-600">
+                      {active.summary}
+                    </p>
                   </div>
                   {active.core ? (
                     <span className="rounded-full bg-ocean-600 px-3 py-1 text-[11px] font-semibold tracking-wider text-white uppercase">

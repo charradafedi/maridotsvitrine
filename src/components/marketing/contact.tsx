@@ -82,25 +82,25 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="border-t border-line bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+    <section id="contact" className="border-t border-line bg-white py-16 sm:py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-4 sm:px-8">
         <SectionHeading
           eyebrow="Contact"
           title="Start a research conversation"
           description="Write to info@maridots.com, or leave your details below. Inquiries, technical evaluation discussions, and pilot feedback are processed directly by the international team — with administrative oversight in Tunisia — via that mailbox. Every message is answered personally; there is no sales pipeline."
         />
 
-        <div className="mt-14 grid gap-8 lg:grid-cols-[1.15fr_1fr] lg:gap-12">
+        <div className="mt-10 grid gap-8 sm:mt-14 lg:grid-cols-[1.15fr_1fr] lg:gap-12">
           <Reveal>
             <div className="card overflow-hidden">
-              <div className="flex items-center gap-2 border-b border-line bg-canvas/70 px-7 py-4">
-                <span className="size-2 rounded-full bg-rag-success" />
-                <p className="text-xs font-semibold tracking-wide text-ink-muted">
+              <div className="flex items-center gap-2 border-b border-line bg-canvas/70 px-4 py-4 sm:px-7">
+                <span className="size-2 shrink-0 rounded-full bg-rag-success" />
+                <p className="text-xs font-semibold tracking-wide text-slate-600">
                   International team · info@maridots.com
                 </p>
               </div>
 
-              <div className="p-7 sm:p-8">
+              <div className="p-4 sm:p-7 md:p-8">
                 {status === "success" ? (
                   <motion.div
                     initial={{ opacity: 0, y: 12 }}

@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# Cloudflare OpenNext build output (must be rebuilt on deploy)
+/.open-next/
+/.wrangler/
+
 # production
 /build
 

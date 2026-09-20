@@ -33,9 +33,9 @@ export function Hero() {
         className="animate-drift absolute -top-40 -left-32 size-[34rem] rounded-full bg-ocean-500/25 blur-[140px]"
       />
 
-      <div className="relative mx-auto flex min-h-[40rem] max-w-7xl items-center px-5 pt-24 pb-16 sm:px-8 sm:pt-32">
+      <div className="relative mx-auto flex min-h-[32rem] max-w-7xl items-center px-4 pt-16 pb-14 sm:min-h-[40rem] sm:px-6 sm:pt-24 sm:pb-16 md:px-8 md:pt-28">
         <div className="max-w-3xl">
-          <h1 className="display text-[2.6rem] leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-[4.25rem]">
+          <h1 className="display text-[2.15rem] leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-[4.25rem]">
             <WordReveal text="Streamline Compliance." delay={0.1} />
             <br />
             <WordReveal
@@ -49,31 +49,31 @@ export function Hero() {
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
-            className="mt-7 max-w-xl text-lg leading-8 text-slate-300"
+            className="mt-5 max-w-xl text-base leading-7 text-slate-300 sm:mt-7 sm:text-lg sm:leading-8"
           >
-            A research initiative into one controlled record of fleet
-            compliance and risk — certificates, audits, CAPA, and permits, with
-            the guidance and archived evidence behind them. The prototypes shown
-            here are internal R&amp;D, published for technical discussion with
-            maritime practitioners.
+            Enterprise Fleet Intelligence &amp; Risk Control. Unify compliance
+            management, automated risk assessment, and real-time alert
+            generation to protect revenue, optimize operational efficiency, and
+            drive sustainability—all built on a foundation of uncompromised
+            security and architectural flexibility.
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.85 }}
-            className="mt-10 flex flex-wrap items-center gap-3"
+            className="mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center"
           >
             <a
               href="#contact"
-              className="group inline-flex items-center gap-2 rounded-full bg-ocean-600 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_-16px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-500"
+              className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-ocean-600 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_-16px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-500 sm:w-auto"
             >
               Write to the research team
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
               href="#modules"
-              className="group inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:border-white/40 hover:bg-white/10"
+              className="group inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:border-white/40 hover:bg-white/10 sm:w-auto"
             >
               <Play className="size-3.5 fill-current" />
               See the research prototypes

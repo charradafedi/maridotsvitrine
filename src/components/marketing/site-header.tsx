@@ -66,20 +66,24 @@ export function SiteHeader() {
     >
       <nav
         aria-label="Primary"
-        className="mx-auto flex h-24 max-w-7xl items-center justify-between gap-6 px-5 sm:h-28 sm:px-8"
+        className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:h-20 sm:gap-4 sm:px-6 md:h-24 md:px-8"
       >
-        <Link href="/" className="flex shrink-0 items-center" aria-label="Maridots home">
+        <Link
+          href="/"
+          className="flex min-w-0 shrink-0 items-center"
+          aria-label="Maridots home"
+        >
           <Image
             src="/logotype.png"
             alt="Maridots"
             width={280}
             height={280}
             priority
-            className="h-20 w-auto sm:h-24"
+            className="h-12 w-auto sm:h-14 md:h-20"
           />
         </Link>
 
-        <ul className="hidden items-center gap-1 xl:flex">
+        <ul className="hidden items-center gap-0.5 xl:flex">
           {NAV_LINKS.map((link) => {
             const active = activeId === link.id;
             return (
@@ -88,7 +92,7 @@ export function SiteHeader() {
                   href={anchor(link.id)}
                   aria-current={active ? "true" : undefined}
                   className={cn(
-                    "relative z-10 block rounded-full px-3 py-2 text-[13px] font-medium whitespace-nowrap transition-colors",
+                    "relative z-10 block rounded-full px-2.5 py-2 text-[13px] font-medium whitespace-nowrap transition-colors 2xl:px-3",
                     active ? "text-ocean-700" : "text-ink-muted hover:text-ink",
                   )}
                 >
@@ -106,12 +110,13 @@ export function SiteHeader() {
           })}
         </ul>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <a
             href={anchor("contact")}
-            className="group hidden items-center gap-2 rounded-full bg-ocean-600 px-4 py-2.5 text-sm font-semibold text-white shadow-[0_10px_30px_-12px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-700 sm:inline-flex"
+            className="group hidden items-center gap-2 rounded-full bg-ocean-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_30px_-12px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-700 md:inline-flex md:px-4"
           >
-            Write to the research team
+            <span className="lg:hidden">Contact</span>
+            <span className="hidden lg:inline">Write to the research team</span>
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
           </a>
           <button

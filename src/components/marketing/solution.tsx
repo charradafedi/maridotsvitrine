@@ -36,7 +36,7 @@ export function Solution() {
         />
 
         <div className="mt-16 grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:gap-16">
-          <Reveal className="lg:sticky lg:top-28 lg:self-start">
+          <Reveal className="lg:sticky lg:top-24 lg:self-start">
             <div className="relative">
               <div
                 aria-hidden="true"

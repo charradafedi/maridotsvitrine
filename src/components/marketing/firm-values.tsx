@@ -22,7 +22,7 @@ export function FirmValues() {
   return (
     <section
       aria-label="What Maridots stands for"
-      className="relative z-10 -mt-24 px-5 pb-16 sm:px-8"
+      className="relative z-10 -mt-16 px-4 pb-12 sm:-mt-20 sm:px-6 sm:pb-16 md:-mt-24 md:px-8"
     >
       <div className="mx-auto max-w-7xl">
         <Stagger className="glass-light grid overflow-hidden rounded-2xl bg-white/90 shadow-[0_30px_70px_-45px_rgba(15,23,42,0.75)] sm:grid-cols-2 lg:grid-cols-5">
@@ -31,9 +31,9 @@ export function FirmValues() {
             return (
               <StaggerItem
                 key={value.id}
-                className="group relative border-b border-line-soft last:border-b-0 sm:border-r sm:[&:nth-child(2n)]:border-r-0 lg:border-b-0 lg:[&:nth-child(2n)]:border-r lg:last:border-r-0"
+                className="group relative border-b border-line-soft last:border-b-0 sm:border-r sm:[&:nth-child(2n)]:border-r-0 lg:border-b-0 lg:[&:nth-child(2n)]:border-r lg:[&:nth-child(5n)]:border-r-0 lg:last:border-r-0"
               >
-                <div className="h-full px-6 py-7 transition-colors group-hover:bg-ocean-50/40">
+                <div className="h-full px-5 py-6 transition-colors group-hover:bg-ocean-50/40 sm:px-6 sm:py-7">
                   <span
                     aria-hidden="true"
                     className="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 bg-linear-to-r from-ocean-500 to-ocean-300 transition-transform duration-500 group-hover:scale-x-100"

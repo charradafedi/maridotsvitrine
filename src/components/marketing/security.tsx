@@ -32,7 +32,7 @@ export function Security() {
     <section id="security" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[0.85fr_1fr] lg:items-start lg:gap-16">
-          <div className="lg:sticky lg:top-28">
+          <div className="lg:sticky lg:top-24">
             <Reveal>
               <Image
                 src="/assets/maridots-shield.png"

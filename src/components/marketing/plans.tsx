@@ -9,10 +9,10 @@ import { Reveal, SpotlightCard } from "@/components/marketing/motion";
 import { cn } from "@/lib/utils";
 
 const FACTORS = [
-  "Fleet profile and vessel types",
-  "Prototypes in scope",
-  "Shore and vessel workflows reviewed",
-  "Depth and length of the exchange",
+  "Fleet size and operating profile",
+  "Modules in the pilot scope",
+  "Shore and vessel workflows",
+  "Quality and reliability priorities",
 ];
 
 type Tier = {
@@ -26,22 +26,22 @@ type Tier = {
 const TIERS: Record<"operator" | "bureau", Tier[]> = {
   operator: [
     {
-      name: "Focused review",
+      name: "Focused pilot",
       summary:
-        "A short exchange on one problem area — usually certificate control or the audit cycle.",
+        "A contained pilot on one priority area — typically certificate control or the audit cycle — so quality can be proven before the scope widens.",
       points: [
         "Asset register and certificate matrix",
         "Audit schedules and findings",
         "Snap Hazards and CAPA",
-        "Written notes back to you",
+        "Structured feedback into the product",
       ],
     },
     {
-      name: "Full prototype review",
+      name: "Full-scope pilot",
       summary:
-        "A longer session across the compliance and risk chain as it currently stands.",
+        "A broader pilot across the compliance and risk chain, for fleets ready to pressure-test reliability under real operating conditions.",
       points: [
-        "Everything in a focused review",
+        "Everything in a focused pilot",
         "Crewing, rest hours, and PTW",
         "Bowtie, Fishbone RCA, and MOC",
         "Executive dashboard and alerts",
@@ -49,11 +49,11 @@ const TIERS: Record<"operator" | "bureau", Tier[]> = {
       featured: true,
     },
     {
-      name: "Architecture discussion",
+      name: "Architecture partnership",
       summary:
-        "A technical exchange for teams interested in the engineering rather than the screens.",
+        "For teams that want to co-shape the platform foundations — data model, tenancy, and access control — alongside a live pilot.",
       points: [
-        "Everything in a full prototype review",
+        "Everything in a full-scope pilot",
         "Data model and migration approach",
         "Multi-tenant scoping and RBAC design",
         "Direct exchange with the engineering side",
@@ -62,9 +62,9 @@ const TIERS: Record<"operator" | "bureau", Tier[]> = {
   ],
   bureau: [
     {
-      name: "Bureau perspective",
+      name: "Bureau pilot",
       summary:
-        "For auditors and consultancy practitioners willing to review the multi-fleet prototype and tell us where it breaks.",
+        "For consultancy and audit organisations piloting multi-fleet delivery — proving quality across client engagements before any commercial arrangement.",
       points: [
         "Bureau Dashboard and Clients",
         "Team assignment and Calendar",
@@ -93,24 +93,24 @@ export function Plans() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Collaboration"
-          title="No prices, no licences — just research conversations"
-          description="Maridots is not sold, licensed, or subscribed to. There is no price list, no checkout, and no commercial offering behind this page. What varies is the shape of the conversation: how much of the prototype is worth reviewing with you, and how deep the technical exchange goes."
+          title="Pilot first — quality and reliability before any commercial path"
+          description="Licences and commercial agreements are not available at this stage. Our priority is a limited set of pilot accounts, so we can prove quality, reliability, and fit under real fleet conditions. Sophisticated compliance and risk control should be within reach of smaller operators as well as larger fleets — a sustainable model only works if it serves the whole market, not only those who can already afford enterprise tooling."
         />
 
         <Reveal>
-          <div className="mt-10 flex flex-wrap items-center justify-between gap-6">
+          <div className="mt-10 flex flex-col gap-6 lg:flex-row lg:flex-wrap lg:items-center lg:justify-between">
             <ul className="flex flex-wrap gap-2">
               {FACTORS.map((factor) => (
                 <li
                   key={factor}
-                  className="rounded-full bg-white px-3 py-1.5 text-sm text-ink-muted ring-1 ring-line"
+                  className="rounded-full bg-white px-3 py-1.5 text-xs text-ink-muted ring-1 ring-line sm:text-sm"
                 >
                   {factor}
                 </li>
               ))}
             </ul>
 
-            <div className="flex gap-1 rounded-full bg-white p-1 ring-1 ring-line">
+            <div className="flex w-full gap-1 rounded-full bg-white p-1 ring-1 ring-line sm:w-auto">
               {AUDIENCE_TABS.map((tab) => {
                 const selected = tab.id === audience;
                 return (
@@ -119,7 +119,7 @@ export function Plans() {
                     onClick={() => setAudience(tab.id)}
                     aria-pressed={selected}
                     className={cn(
-                      "relative rounded-full px-4 py-2 text-sm font-semibold transition-colors",
+                      "relative flex-1 rounded-full px-3 py-2 text-sm font-semibold transition-colors sm:flex-none sm:px-4",
                       selected ? "text-white" : "text-ink-muted hover:text-ink",
                     )}
                   >
@@ -164,7 +164,7 @@ export function Plans() {
                     <h3 className="display text-xl text-ink">{tier.name}</h3>
                     {tier.featured ? (
                       <span className="rounded-full bg-ocean-600 px-2.5 py-1 text-[11px] font-semibold tracking-wider text-white uppercase">
-                        {tier.wide ? "Bureau track" : "Most requested"}
+                        {tier.wide ? "Bureau pilot" : "Most requested"}
                       </span>
                     ) : null}
                   </div>
@@ -185,7 +185,7 @@ export function Plans() {
                     ))}
                   </ul>
                   <p className="mt-6 text-sm font-medium text-ink">
-                    No charge · no licence · no obligation
+                    Pilot access · no licence · no commercial commitment
                   </p>
                 </SpotlightCard>
               </motion.div>
@@ -194,26 +194,24 @@ export function Plans() {
         </div>
 
         <Reveal>
-          <div className="mesh-dark relative mt-12 flex flex-wrap items-center justify-between gap-6 overflow-hidden rounded-3xl px-8 py-10">
+          <div className="mesh-dark relative mt-12 flex flex-col items-start gap-6 overflow-hidden rounded-2xl px-5 py-8 sm:rounded-3xl sm:px-8 sm:py-10 md:flex-row md:flex-wrap md:items-center md:justify-between">
             <div
               aria-hidden="true"
               className="grid-fine-dark absolute inset-0 [mask-image:radial-gradient(ellipse_60%_80%_at_20%_50%,#000,transparent_70%)]"
             />
             <div className="relative max-w-xl">
-              <p className="display text-2xl leading-snug text-white sm:text-3xl">
-                Tell us how your fleet works — we&apos;ll show you what we
-                built and listen
+              <p className="display text-xl leading-snug text-white sm:text-2xl md:text-3xl">
+                Tell us about your fleet — we&apos;ll explore a pilot that fits
               </p>
               <p className="mt-3 text-sm leading-6 text-slate-300">
-                Write to info@maridots.com and describe the operation you run.
-                What follows is a technical conversation about the prototypes,
-                not a sales process — nothing is quoted, sold, or contracted
-                through this site.
+                Write to info@maridots.com. We will discuss a pilot scoped to
+                your operation — quality and reliability first. Licences and
+                commercial terms are not on the table yet.
               </p>
             </div>
             <a
               href="mailto:info@maridots.com"
-              className="group relative inline-flex items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-rail-900 transition-transform hover:-translate-y-0.5"
+              className="group relative inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-rail-900 transition-transform hover:-translate-y-0.5 sm:w-auto"
             >
               Email the research team
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />

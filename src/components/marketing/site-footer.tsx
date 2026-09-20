@@ -40,11 +40,11 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-line bg-rail-900">
       <div className="border-b border-white/10">
-        <ul className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-8 gap-y-3 px-5 py-5 sm:px-8">
+        <ul className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-5 gap-y-2.5 px-4 py-4 sm:gap-x-8 sm:px-8 sm:py-5">
           {FIRM_VALUES.map((value) => (
             <li
               key={value.id}
-              className="flex items-center gap-2 text-xs font-medium tracking-wide text-slate-400"
+              className="flex items-center gap-2 text-[11px] font-medium tracking-wide text-slate-400 sm:text-xs"
             >
               <span aria-hidden="true" className="size-1.5 rounded-full bg-ocean-400" />
               {value.label}
@@ -53,15 +53,15 @@ export function SiteFooter() {
         </ul>
       </div>
 
-      <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
-        <div className="grid gap-12 lg:grid-cols-[1.3fr_2fr]">
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-8 sm:py-16">
+        <div className="grid gap-10 lg:grid-cols-[1.3fr_2fr] lg:gap-12">
           <div>
             <Image
               src="/logo.png"
               alt="Maridots"
               width={280}
               height={280}
-              className="h-28 w-auto rounded-xl bg-white p-2 sm:h-32"
+              className="h-20 w-auto rounded-xl bg-white p-2 sm:h-28 md:h-32"
             />
             <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">
               An international cross-border technology research initiative into

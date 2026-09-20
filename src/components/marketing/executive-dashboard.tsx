@@ -466,23 +466,23 @@ function ExpiryHorizon({ detailed = false }: { detailed?: boolean }) {
         title="Certificate expiry horizon"
         note="Statutory and class certificates, fleet-wide"
       />
-      <div className="mt-3 grid grid-cols-3 gap-2.5">
+      <div className="mt-3 grid grid-cols-3 gap-1.5 sm:gap-2.5">
         {EXPIRY.map((entry) => (
           <div
             key={entry.window}
             className={cn(
-              "rounded-xl px-3 py-3.5 ring-1 transition-transform hover:-translate-y-0.5",
+              "min-w-0 rounded-xl px-2 py-2.5 ring-1 transition-transform hover:-translate-y-0.5 sm:px-3 sm:py-3.5",
               TONE_CHIP[entry.tone],
             )}
           >
-            <p className="text-[10px] font-bold tracking-wider uppercase">
+            <p className="text-[9px] font-bold tracking-wider uppercase sm:text-[10px]">
               {entry.band} · {entry.window}
             </p>
-            <p className="display mt-1 text-3xl text-white tabular-nums">
+            <p className="display mt-1 text-2xl text-white tabular-nums sm:text-3xl">
               <CountUp value={entry.count} duration={1} />
             </p>
             {detailed ? (
-              <p className="mt-1 text-[11px] leading-4 opacity-90">
+              <p className="mt-1 text-[10px] leading-4 opacity-90 sm:text-[11px]">
                 {entry.note}
               </p>
             ) : null}

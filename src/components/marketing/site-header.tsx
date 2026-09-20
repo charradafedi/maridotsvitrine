@@ -60,10 +60,8 @@ export function SiteHeader() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 transition-all duration-300",
-        scrolled
-          ? "border-b border-line bg-white/85 shadow-[0_8px_30px_-24px_rgba(15,23,42,0.6)] backdrop-blur-xl"
-          : "border-b border-transparent bg-white/60 backdrop-blur-md",
+        "sticky top-0 z-50 isolate border-b border-line bg-white shadow-[0_8px_30px_-24px_rgba(15,23,42,0.45)] backdrop-blur-[12px] transition-shadow duration-300",
+        scrolled && "shadow-[0_8px_30px_-20px_rgba(15,23,42,0.55)]",
       )}
     >
       <nav

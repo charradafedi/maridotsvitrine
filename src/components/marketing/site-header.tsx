@@ -66,16 +66,16 @@ export function SiteHeader() {
     >
       <nav
         aria-label="Primary"
-        className="mx-auto flex h-18 max-w-7xl items-center justify-between gap-6 px-5 sm:px-8"
+        className="mx-auto flex h-24 max-w-7xl items-center justify-between gap-6 px-5 sm:h-28 sm:px-8"
       >
         <Link href="/" className="flex shrink-0 items-center" aria-label="Maridots home">
           <Image
-            src="/logotype.svg"
+            src="/logotype.png"
             alt="Maridots"
-            width={168}
-            height={32}
+            width={280}
+            height={280}
             priority
-            className="h-8 w-auto"
+            className="h-20 w-auto sm:h-24"
           />
         </Link>
 

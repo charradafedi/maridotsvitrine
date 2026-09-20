@@ -35,24 +35,7 @@ export function Hero() {
 
       <div className="relative mx-auto flex min-h-[40rem] max-w-7xl items-center px-5 pt-24 pb-16 sm:px-8 sm:pt-32">
         <div className="max-w-3xl">
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="glass inline-flex items-center gap-2.5 rounded-full py-1.5 pr-4 pl-2"
-          >
-            <span className="relative flex size-2.5">
-              {!reduce ? (
-                <span className="absolute inline-flex size-full animate-ping rounded-full bg-ocean-400 opacity-70" />
-              ) : null}
-              <span className="relative inline-flex size-2.5 rounded-full bg-ocean-400" />
-            </span>
-            <span className="text-xs font-semibold tracking-wide text-slate-200">
-              International R&amp;D · Tunisia administrative oversight
-            </span>
-          </motion.div>
-
-          <h1 className="display mt-7 text-[2.6rem] leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-[4.25rem]">
+          <h1 className="display text-[2.6rem] leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-[4.25rem]">
             <WordReveal text="Streamline Compliance." delay={0.1} />
             <br />
             <WordReveal

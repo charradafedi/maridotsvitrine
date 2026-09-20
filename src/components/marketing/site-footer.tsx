@@ -57,15 +57,12 @@ export function SiteFooter() {
         <div className="grid gap-12 lg:grid-cols-[1.3fr_2fr]">
           <div>
             <Image
-              src="/logo.svg"
-              alt=""
-              width={36}
-              height={36}
-              className="size-9"
+              src="/logo.png"
+              alt="Maridots"
+              width={280}
+              height={280}
+              className="h-28 w-auto rounded-xl bg-white p-2 sm:h-32"
             />
-            <p className="mt-4 text-xl font-semibold text-white">
-              Mari<span className="text-ocean-400">dots</span>
-            </p>
             <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">
               An international cross-border technology research initiative into
               maritime compliance and risk architecture, jointly developed and

@@ -27,7 +27,7 @@ const ORGANISATION_SCHEMA = {
   "@type": "ResearchProject",
   name: "Maridots",
   url: "https://maridots.com",
-  logo: "https://maridots.com/logo.svg",
+  logo: "https://maridots.com/logo.png",
   description:
     "International cross-border technology research initiative into maritime compliance and risk architecture. Jointly developed and managed with administrative oversight in Tunisia. Non-commercial; prototypes are not offered for sale or licence.",
   email: "info@maridots.com",

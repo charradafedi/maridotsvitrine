@@ -61,7 +61,8 @@ export const metadata: Metadata = {
     images: ["/assets/hero-fleet.png"],
   },
   icons: {
-    icon: [{ url: "/logo.svg", type: "image/svg+xml" }],
+    icon: [{ url: "/icon.png", type: "image/png", sizes: "32x32" }],
+    apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
   },
 };
 

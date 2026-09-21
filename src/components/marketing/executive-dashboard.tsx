@@ -179,7 +179,7 @@ export function ExecutiveDashboard() {
         <SectionHeading
           eyebrow="Executive dashboard & AI"
           title="Executive dashboard with AI-assisted insight"
-          description="A research prototype exploring how fleet compliance and risk posture read at a glance — the system highlights what needs attention; accountable officers decide."
+          description="A managed preview of how fleet compliance and risk posture read at a glance — the system highlights what needs attention; accountable officers decide."
           tone="dark"
         />
 
@@ -198,7 +198,7 @@ export function ExecutiveDashboard() {
                 </div>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-2.5 py-1 text-[11px] font-medium text-ocean-200 ring-1 ring-white/10">
                   <FlaskConical className="size-3" />
-                  R&amp;D prototype · illustrative data
+                  Managed preview · illustrative data
                 </span>
               </header>
 

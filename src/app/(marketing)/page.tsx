@@ -15,21 +15,21 @@ import { Support } from "@/components/marketing/support";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Maridots | Pre-Launch Technical Preview & Architecture Research",
+    absolute: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
   },
   description:
-    "Maridots is an international cross-border technology research initiative in maritime compliance and risk architecture, jointly managed with administrative oversight in Tunisia. Internal prototypes for technical evaluation — not for sale or licence.",
+    "Maridots is evaluating strategic deployment partners through a managed enterprise pilot program for maritime compliance and risk control, with administrative oversight in Tunisia. Published architectures are for evaluation and partner onboarding — not for open commercial licensing or public purchase.",
   alternates: { canonical: "/" },
 };
 
 const ORGANISATION_SCHEMA = {
   "@context": "https://schema.org",
-  "@type": "ResearchProject",
+  "@type": "Organization",
   name: "Maridots",
   url: "https://maridots.com",
   logo: "https://maridots.com/logo.png",
   description:
-    "International cross-border technology research initiative into maritime compliance and risk architecture. Jointly developed and managed with administrative oversight in Tunisia. Non-commercial; prototypes are not offered for sale or licence.",
+    "Enterprise maritime compliance and risk platform in a managed pilot program. Architectures and prototypes are shared for evaluation and partner onboarding; not offered for open commercial licensing or public purchase.",
   email: "info@maridots.com",
 };
 

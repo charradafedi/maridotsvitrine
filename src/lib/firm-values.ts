@@ -23,7 +23,7 @@ export const FIRM_VALUES = [
   {
     id: "flexibility",
     label: "High flexibility",
-    detail: "Modular research scopes, fleet-to-bureau workspace perspectives",
+    detail: "Modular scopes, fleet-to-bureau workspace perspectives",
   },
   {
     id: "security",

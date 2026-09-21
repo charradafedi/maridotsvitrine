@@ -6,21 +6,21 @@ import { Reveal, SpotlightCard } from "@/components/marketing/motion";
 const SERVICES = [
   {
     icon: LifeBuoy,
-    phase: "Research theme",
+    phase: "Pilot theme",
     title: "Adoption and support models",
-    body: "How does a safety management system stay usable after the first month? We are studying what shore teams actually need when configurations change, operating units are added, and questions come back from the vessel.",
+    body: "How does a safety management system stay usable after the first month? Pilot partners help define what shore teams need when configurations change, operating units are added, and questions return from the vessel.",
   },
   {
     icon: GraduationCap,
     phase: "Shore & vessel",
     title: "Training format studies",
-    body: "Two audiences, two problems: shore users working audits, CAPA, and certificate control, and vessel users capturing hazards, permits, and rest hours at the point of work. We are testing which formats hold up for each.",
+    body: "Two audiences, two problems: shore users working audits, CAPA, and certificate control, and vessel users capturing hazards, permits, and rest hours at the point of work. Pilot evaluation tests which formats hold up for each.",
   },
   {
     icon: RefreshCw,
     phase: "Longitudinal",
     title: "Competence retention",
-    body: "Regulations move, workflows change, and crew rotate through the fleet. Part of the research asks how competence is kept current over time rather than assumed at handover.",
+    body: "Regulations move, workflows change, and crew rotate through the fleet. Enablement asks how competence stays current over time rather than being assumed at handover.",
   },
 ];
 
@@ -32,9 +32,9 @@ export function Support() {
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
-          eyebrow="Enablement research"
+          eyebrow="Enablement"
           title="The human half of the problem"
-          description="A safety management system only works if the people using it at sea and ashore trust it. Alongside the software prototypes, we are researching how that trust is built — the questions below are open, and practitioner input shapes them."
+          description="A safety management system only works if the people using it at sea and ashore trust it. Alongside the platform preview, we are refining how that trust is built — the questions below remain open, and practitioner input from pilot partners shapes them."
           align="center"
         />
 

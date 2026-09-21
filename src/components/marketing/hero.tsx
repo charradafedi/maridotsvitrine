@@ -68,7 +68,7 @@ export function Hero() {
               href="#contact"
               className="group inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-ocean-600 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_-16px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-500 sm:w-auto"
             >
-              Write to the research team
+              Write to the pilot team
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -76,7 +76,7 @@ export function Hero() {
               className="group inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full border border-white/25 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:border-white/40 hover:bg-white/15 sm:w-auto"
             >
               <Play className="size-3.5 fill-current" />
-              See the research prototypes
+              Explore the managed preview
             </a>
           </motion.div>
 

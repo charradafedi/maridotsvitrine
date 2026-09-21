@@ -32,7 +32,7 @@ export function Solution() {
         <SectionHeading
           eyebrow="The solution"
           title="Shore and vessel working from the same source of truth"
-          description="Fleet compliance fails in the gaps: a certificate tracked in a spreadsheet, a near-miss reported by email, a corrective action closed without evidence. The Maridots research prototypes explore how those gaps close when the entire compliance and risk record sits in one controlled system."
+          description="Fleet compliance fails in the gaps: a certificate tracked in a spreadsheet, a near-miss reported by email, a corrective action closed without evidence. Maridots brings those workflows into one controlled system — shared here as a managed preview for evaluation with selective pilot partners."
         />
 
         <div className="mt-16 grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:gap-16">

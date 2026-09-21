@@ -17,23 +17,24 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL("https://maridots.com"),
   title: {
-    default: "Maridots | Pre-Launch Technical Preview & Architecture Research",
+    default: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
     template: "%s | Maridots",
   },
   description:
-    "Maridots is an international cross-border technology research initiative in maritime compliance and risk architecture. Internal prototypes for technical evaluation — not a commercial software offering.",
+    "Maridots is evaluating strategic deployment partners through a managed enterprise pilot program for maritime compliance and risk control. Architectures and prototypes are for evaluation and partner onboarding — not open for public purchase or licensing.",
   keywords: [
-    "maritime compliance research",
+    "maritime compliance platform",
     "maritime risk architecture",
+    "enterprise pilot program",
     "ISM Code workflows",
-    "CAPA research prototype",
+    "CAPA management",
     "PSC pre-arrival readiness",
     "permit to work maritime",
     "bowtie barrier analysis",
     "fishbone RCA",
     "certificate expiry monitoring",
-    "DPA technical evaluation",
-    "consultancy bureau audit research",
+    "DPA compliance",
+    "consultancy bureau audit",
   ],
   applicationName: "Maridots",
   openGraph: {
@@ -41,9 +42,9 @@ export const metadata: Metadata = {
     siteName: "Maridots",
     locale: "en_GB",
     url: "/",
-    title: "Maridots | Pre-Launch Technical Preview & Architecture Research",
+    title: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
     description:
-      "International cross-border R&D into maritime compliance and risk architecture. Research prototypes for technical discussion — not for sale or licence.",
+      "Managed enterprise pilot program for maritime compliance and risk. Evaluation and partner onboarding only — not available for open commercial licensing or public purchase.",
     images: [
       {
         url: "/assets/hero-fleet.png",
@@ -55,9 +56,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maridots | Pre-Launch Technical Preview & Architecture Research",
+    title: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
     description:
-      "Pre-launch technical preview and architecture research in maritime compliance and risk — international team, non-commercial.",
+      "Managed enterprise pilot program for maritime compliance and risk — selective partners, not open for public purchase or licensing.",
     images: ["/assets/hero-fleet.png"],
   },
   icons: {

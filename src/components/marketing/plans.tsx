@@ -33,7 +33,7 @@ const TIERS: Record<"operator" | "bureau", Tier[]> = {
         "Asset register and certificate matrix",
         "Audit schedules and findings",
         "Snap Hazards and CAPA",
-        "Structured feedback into the product",
+        "Structured feedback into the platform",
       ],
     },
     {
@@ -64,7 +64,7 @@ const TIERS: Record<"operator" | "bureau", Tier[]> = {
     {
       name: "Bureau pilot",
       summary:
-        "For consultancy and audit organisations piloting multi-fleet delivery — proving quality across client engagements before any commercial arrangement.",
+        "For consultancy and audit organisations piloting multi-fleet delivery — proving quality across client engagements before any broader commercial arrangement.",
       points: [
         "Bureau Dashboard and Clients",
         "Team assignment and Calendar",
@@ -93,8 +93,8 @@ export function Plans() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Collaboration"
-          title="Pilot first — quality and reliability before any commercial path"
-          description="Licences and commercial agreements are not available at this stage. Our priority is a limited set of pilot accounts, so we can prove quality, reliability, and fit under real fleet conditions. Sophisticated compliance and risk control should be within reach of smaller operators as well as larger fleets — a sustainable model only works if it serves the whole market, not only those who can already afford enterprise tooling."
+          title="Selective pilot accounts — quality before any commercial path"
+          description="Open commercial licensing, public purchase, and automated subscription are not available. We are evaluating a limited set of strategic pilot partners to prove quality, reliability, and operational fit under real fleet conditions. Sophisticated compliance and risk control should remain accessible to smaller operators as well as larger fleets — a durable model only works when it serves the whole market."
         />
 
         <Reveal>
@@ -185,7 +185,7 @@ export function Plans() {
                     ))}
                   </ul>
                   <p className="mt-6 text-sm font-medium text-ink">
-                    Pilot access · no licence · no commercial commitment
+                    Managed pilot access · no open licence · no self-serve purchase
                   </p>
                 </SpotlightCard>
               </motion.div>
@@ -204,16 +204,17 @@ export function Plans() {
                 Tell us about your fleet — we&apos;ll explore a pilot that fits
               </p>
               <p className="mt-3 text-sm leading-6 text-slate-300">
-                Write to info@maridots.com. We will discuss a pilot scoped to
-                your operation — quality and reliability first. Licences and
-                commercial terms are not on the table yet.
+                Write to info@maridots.com to discuss a managed pilot scoped to
+                your operation. Quality and reliability come first. Open
+                licensing and public purchase are not available through this
+                site.
               </p>
             </div>
             <a
               href="mailto:info@maridots.com"
               className="group relative inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-rail-900 transition-transform hover:-translate-y-0.5 sm:w-auto"
             >
-              Email the research team
+              Email the pilot team
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
           </div>

@@ -34,7 +34,7 @@ export function Audiences() {
     <section className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
-          eyebrow="Who this research is for"
+          eyebrow="Who the pilot program is for"
           title="Two evaluation perspectives, one architecture"
           align="center"
         />

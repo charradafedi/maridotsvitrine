@@ -7,7 +7,7 @@ import { FIRM_VALUES } from "@/lib/firm-values";
 // Section links are absolute so they also work from the legal pages.
 const COLUMNS = [
   {
-    title: "Research",
+    title: "Platform",
     links: [
       { label: "Solution", href: "/#solution" },
       { label: "Modules", href: "/#modules" },
@@ -18,18 +18,18 @@ const COLUMNS = [
     ],
   },
   {
-    title: "Initiative",
+    title: "Pilot program",
     links: [
-      { label: "Enablement research", href: "/#support" },
+      { label: "Enablement", href: "/#support" },
       { label: "Collaboration", href: "/#plans" },
-      { label: "Write to the research team", href: "/#contact" },
+      { label: "Contact the pilot team", href: "/#contact" },
     ],
   },
   {
     title: "Legal",
     links: [
       { label: "Privacy notice", href: "/privacy" },
-      { label: "Research notice", href: "/notice" },
+      { label: "Pilot program notice", href: "/notice" },
     ],
   },
 ];
@@ -64,10 +64,10 @@ export function SiteFooter() {
               className="h-20 w-auto rounded-xl bg-white p-2 sm:h-28 md:h-32"
             />
             <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">
-              An international cross-border technology research initiative into
-              maritime compliance and risk architecture, jointly developed and
-              managed with administrative oversight in Tunisia. Inquiries are
-              handled by the international team at info@maridots.com.
+              Enterprise maritime compliance and risk control, currently
+              evaluating strategic deployment partners through a managed pilot
+              program. Administrative oversight in Tunisia. Inquiries:
+              info@maridots.com.
             </p>
             <ul className="mt-6 space-y-2.5 text-sm text-slate-400">
               <li className="flex items-center gap-2.5">
@@ -107,8 +107,8 @@ export function SiteFooter() {
             © {year} Maridots. All rights reserved.
           </p>
           <p className="text-xs text-slate-500">
-            International research · Tunisia administrative oversight · not a
-            commercial offering.
+            Enterprise pilot program · Tunisia administrative oversight · not
+            open for public purchase or licensing.
           </p>
         </div>
       </div>

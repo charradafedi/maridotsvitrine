@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 import {
   ArrowRight,
   CircleCheck,
-  FlaskConical,
   Globe,
   LoaderCircle,
   Mail,
   Send,
+  Shield,
   TriangleAlert,
 } from "lucide-react";
 
@@ -86,8 +86,8 @@ export function Contact() {
       <div className="mx-auto max-w-7xl px-4 sm:px-8">
         <SectionHeading
           eyebrow="Contact"
-          title="Start a research conversation"
-          description="Write to info@maridots.com, or leave your details below. Inquiries, technical evaluation discussions, and pilot feedback are processed directly by the international team — with administrative oversight in Tunisia — via that mailbox. Every message is answered personally; there is no sales pipeline."
+          title="Discuss a pilot arrangement"
+          description="Write to info@maridots.com, or leave your details below. Inquiries about evaluation, technical alignment, and selective pilot onboarding are handled by the international team — with administrative oversight in Tunisia. Every message receives a personal reply; there is no automated sales pipeline or self-serve checkout."
         />
 
         <div className="mt-10 grid gap-8 sm:mt-14 lg:grid-cols-[1.15fr_1fr] lg:gap-12">
@@ -119,8 +119,8 @@ export function Contact() {
                       Thank you — your message is on its way
                     </h3>
                     <p className="mx-auto mt-3 max-w-md leading-7 text-ink-muted">
-                      The international Maridots research team will reply to your
-                      work email personally. You can also write directly to
+                      The Maridots pilot team will reply to your work email
+                      personally. You can also write directly to
                       info@maridots.com at any time.
                     </p>
                     <button
@@ -224,7 +224,7 @@ export function Contact() {
                         required
                         rows={5}
                         aria-invalid={Boolean(fieldErrors.message)}
-                        placeholder="12 bulk carriers, ISM audit in March, certificates tracked in spreadsheets and CAPA closure slipping. Happy to look at the risk and audit prototypes and give you feedback."
+                        placeholder="Outline your fleet profile, priority compliance workflows, and interest in a managed pilot evaluation."
                         className="input mt-1.5 resize-y"
                       />
                       <FieldError message={fieldErrors.message} />
@@ -254,7 +254,8 @@ export function Contact() {
                         />
                         <span className="text-ink-muted">
                           I agree that Maridots may store these details and
-                          reply to me about this research enquiry. <Required />
+                          reply to me about a pilot or evaluation enquiry.{" "}
+                          <Required />
                         </span>
                       </label>
                       <FieldError message={fieldErrors.consent} />
@@ -323,23 +324,25 @@ export function Contact() {
 
               <div className="card p-7">
                 <span className="inline-flex size-10 items-center justify-center rounded-xl bg-ocean-50 text-ocean-600 ring-1 ring-ocean-100">
-                  <FlaskConical className="size-5" />
+                  <Shield className="size-5" />
                 </span>
                 <h3 className="mt-5 font-semibold text-ink">
-                  International team · human reply only
+                  Enterprise Pilot Program · Restricted Access
                 </h3>
                 <p className="mt-2 leading-7 text-ink-muted">
-                  Maridots is an international cross-border research initiative
-                  with administrative oversight in Tunisia. The prototypes are
-                  not for sale, licence, or subscription. No transaction can be
-                  made through this site — just a private technical exchange
-                  with the international team at info@maridots.com.
+                  Maridots is currently evaluating strategic deployment partners
+                  through a managed pilot program. All published architectures,
+                  modules, and prototypes are shared strictly for evaluation and
+                  partner onboarding. They are not available for open commercial
+                  licensing, public purchase, or automated subscription. To
+                  discuss custom pilot arrangements or technical alignment with
+                  our team, contact us directly at info@maridots.com.
                 </p>
                 <Link
                   href="/notice"
                   className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-ocean-700 underline-offset-4 hover:underline"
                 >
-                  Read the research notice
+                  Read the pilot program notice
                   <ArrowRight className="size-4" />
                 </Link>
               </div>

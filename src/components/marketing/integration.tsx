@@ -113,7 +113,7 @@ export function Integration() {
         <SectionHeading
           eyebrow="Smart integration & migration"
           title="Bring fleet, crew, sea service, and certificates across without losing control"
-          description="Most operators sit on spreadsheets and third-party tools, and a bad import is worse than no import. This prototype studies controlled migration: every route into Maridots goes through staging, validation, and review before anything becomes a record."
+          description="Most operators sit on spreadsheets and third-party tools, and a bad import is worse than no import. The managed preview demonstrates controlled migration: every route into Maridots goes through staging, validation, and review before anything becomes a record."
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-[1fr_1.05fr] lg:gap-10">

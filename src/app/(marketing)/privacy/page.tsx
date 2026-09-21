@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const SECTIONS = [
   {
     heading: "1. Who handles your data",
-    body: "Maridots is an international cross-border technology research initiative jointly developed and managed with administrative oversight in Tunisia. Messages sent through this site are processed by the international team and reach the info@maridots.com mailbox. For any question about your data, write to info@maridots.com.",
+    body: "Maridots is an enterprise maritime compliance and risk initiative jointly developed and managed with administrative oversight in Tunisia. Messages sent through this site are processed by the international team and reach the info@maridots.com mailbox. For any question about your data, write to info@maridots.com.",
   },
   {
     heading: "2. What we collect",
@@ -19,7 +19,7 @@ const SECTIONS = [
   },
   {
     heading: "3. Why we collect it",
-    body: "Solely so the international team can reply to you and hold a private technical research conversation about the prototypes. Your details are not used for sales, marketing, profiling, or automated follow-up; they are not sold, rented, or shared for advertising; and no contract of any kind is concluded through this site.",
+    body: "So the international team can reply to you and discuss evaluation, technical alignment, or selective pilot onboarding. Your details are not used for marketing, profiling, or automated follow-up; they are not sold, rented, or shared for advertising; and no open commercial contract is concluded through this site.",
   },
   {
     heading: "4. Who processes it for us",
@@ -27,7 +27,7 @@ const SECTIONS = [
   },
   {
     heading: "5. How long we keep it",
-    body: "Correspondence is kept for as long as the conversation is relevant to the research, and deleted on request or once the exchange is closed. Ask us to delete it at any time and we will.",
+    body: "Correspondence is kept for as long as the conversation is relevant to the pilot or evaluation engagement, and deleted on request or once the exchange is closed. Ask us to delete it at any time and we will.",
   },
   {
     heading: "6. Your choices",
@@ -39,7 +39,7 @@ const SECTIONS = [
   },
   {
     heading: "8. Changes",
-    body: "This notice covers the research phase of the initiative and would be replaced by a full privacy policy before any service were ever offered commercially. No such service is offered today.",
+    body: "This notice covers the managed pilot phase and would be replaced by a full privacy policy before any open commercial service were offered. No such open commercial service is offered today.",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
       <h1 className="display mt-3 text-4xl text-ink">Privacy notice</h1>
       <p className="mt-4 leading-7 text-ink-muted">
         What happens to the details you submit through maridots.com during the
-        research phase. Messages are handled by the international team with
+        managed pilot phase. Messages are handled by the international team with
         administrative oversight in Tunisia.
       </p>
 
@@ -62,8 +62,8 @@ export default function PrivacyPage() {
           <div>
             <h2 className="font-semibold text-ink">The short version</h2>
             <p className="mt-2 leading-7 text-ink-muted">
-              We collect only what you put in the contact form, use it solely
-              to reply and to hold a research conversation, never sell or share
+              We collect only what you put in the contact form, use it solely to
+              reply about evaluation or pilot discussions, never sell or share
               it for advertising, and delete it whenever you ask.
             </p>
           </div>

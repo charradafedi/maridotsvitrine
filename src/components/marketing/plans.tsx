@@ -93,8 +93,8 @@ export function Plans() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Collaboration"
-          title="Selective pilot accounts — quality before any commercial path"
-          description="Open commercial licensing, public purchase, and automated subscription are not available. We are evaluating a limited set of strategic pilot partners to prove quality, reliability, and operational fit under real fleet conditions. Sophisticated compliance and risk control should remain accessible to smaller operators as well as larger fleets — a durable model only works when it serves the whole market."
+          title="International pilots — revenue assurance through co-creation"
+          description="We are seeking selective pilot accounts internationally to validate revenue assurance, operational efficiency, and security under real fleet conditions — and to co-create the next iteration with our Tunisia-led team. Sophisticated compliance and risk control should serve every enterprise: legacy offerings often price smaller operators out of the market; we believe sustainable maritime performance is for all. There is no open commercial licensing, public purchase, or automated subscription on this site. Maridots is a pre-incorporation project with no corporate tax registration yet — engagement is evaluation and co-creation only."
         />
 
         <Reveal>
@@ -201,20 +201,22 @@ export function Plans() {
             />
             <div className="relative max-w-xl">
               <p className="display text-xl leading-snug text-white sm:text-2xl md:text-3xl">
-                Tell us about your fleet — we&apos;ll explore a pilot that fits
+                Join an international pilot focused on revenue assurance
               </p>
               <p className="mt-3 text-sm leading-6 text-slate-300">
-                Write to info@maridots.com to discuss a managed pilot scoped to
-                your operation. Quality and reliability come first. Open
-                licensing and public purchase are not available through this
-                site.
+                Write to info@maridots.com. Share your fleet profile and the
+                outcomes that matter — revenue protection, response speed,
+                efficiency, productivity, security. Our Tunisia-led team will
+                explore a managed pilot and co-creation path. Sophisticated
+                capability for every enterprise scale. No licence is sold
+                through this site.
               </p>
             </div>
             <a
               href="mailto:info@maridots.com"
               className="group relative inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-rail-900 transition-transform hover:-translate-y-0.5 sm:w-auto"
             >
-              Email the pilot team
+              Contact the international team
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
           </div>

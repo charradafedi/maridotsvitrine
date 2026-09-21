@@ -17,24 +17,22 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL("https://maridots.com"),
   title: {
-    default: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
+    default:
+      "Maridots | International Pilot · Revenue Assurance for Every Enterprise",
     template: "%s | Maridots",
   },
   description:
-    "Maridots is evaluating strategic deployment partners through a managed enterprise pilot program for maritime compliance and risk control. Architectures and prototypes are for evaluation and partner onboarding — not open for public purchase or licensing.",
+    "International, Tunisia-led maritime compliance and risk platform. Selective pilots for revenue assurance, lower latency, efficiency, productivity, and security — sophisticated capability for every enterprise scale. Co-creation only; not open for public purchase or licensing.",
   keywords: [
+    "maritime revenue assurance",
+    "international fleet compliance",
     "maritime compliance platform",
-    "maritime risk architecture",
+    "fleet operational efficiency",
+    "SME maritime software",
     "enterprise pilot program",
     "ISM Code workflows",
-    "CAPA management",
-    "PSC pre-arrival readiness",
-    "permit to work maritime",
-    "bowtie barrier analysis",
-    "fishbone RCA",
-    "certificate expiry monitoring",
-    "DPA compliance",
-    "consultancy bureau audit",
+    "Tunisia maritime technology",
+    "sustainable maritime operations",
   ],
   applicationName: "Maridots",
   openGraph: {
@@ -42,9 +40,10 @@ export const metadata: Metadata = {
     siteName: "Maridots",
     locale: "en_GB",
     url: "/",
-    title: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
+    title:
+      "Maridots | International Pilot · Revenue Assurance for Every Enterprise",
     description:
-      "Managed enterprise pilot program for maritime compliance and risk. Evaluation and partner onboarding only — not available for open commercial licensing or public purchase.",
+      "International Tunisia-led pilots for maritime compliance and risk. Sophisticated capability for every enterprise scale — co-creation only, not open for public purchase or licensing.",
     images: [
       {
         url: "/assets/hero-fleet.png",
@@ -56,9 +55,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
+    title:
+      "Maridots | International Pilot · Revenue Assurance for Every Enterprise",
     description:
-      "Managed enterprise pilot program for maritime compliance and risk — selective partners, not open for public purchase or licensing.",
+      "International pilots for maritime revenue assurance — sophisticated solutions for every enterprise scale.",
     images: ["/assets/hero-fleet.png"],
   },
   icons: {

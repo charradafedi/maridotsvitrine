@@ -86,8 +86,8 @@ export function Contact() {
       <div className="mx-auto max-w-7xl px-4 sm:px-8">
         <SectionHeading
           eyebrow="Contact"
-          title="Discuss a pilot arrangement"
-          description="Write to info@maridots.com, or leave your details below. Inquiries about evaluation, technical alignment, and selective pilot onboarding are handled by the international team — with administrative oversight in Tunisia. Every message receives a personal reply; there is no automated sales pipeline or self-serve checkout."
+          title="Discuss an international pilot"
+          description="Write to info@maridots.com, or leave your details below. We invite selective international pilot accounts to validate revenue assurance and operational performance — and to co-create with our Tunisia-led team. Sophisticated solutions should be accessible to every enterprise, not only those priced for the largest fleets. No automated checkout; pre-incorporation engagement is evaluation and co-creation only."
         />
 
         <div className="mt-10 grid gap-8 sm:mt-14 lg:grid-cols-[1.15fr_1fr] lg:gap-12">
@@ -96,7 +96,7 @@ export function Contact() {
               <div className="flex items-center gap-2 border-b border-line bg-canvas/70 px-4 py-4 sm:px-7">
                 <span className="size-2 shrink-0 rounded-full bg-rag-success" />
                 <p className="text-xs font-semibold tracking-wide text-slate-600">
-                  International team · info@maridots.com
+                  International · Tunisia-led · info@maridots.com
                 </p>
               </div>
 
@@ -119,8 +119,8 @@ export function Contact() {
                       Thank you — your message is on its way
                     </h3>
                     <p className="mx-auto mt-3 max-w-md leading-7 text-ink-muted">
-                      The Maridots pilot team will reply to your work email
-                      personally. You can also write directly to
+                      The Maridots Tunisia-led team will reply to your work
+                      email personally. You can also write directly to
                       info@maridots.com at any time.
                     </p>
                     <button
@@ -330,13 +330,16 @@ export function Contact() {
                   Enterprise Pilot Program · Restricted Access
                 </h3>
                 <p className="mt-2 leading-7 text-ink-muted">
-                  Maridots is currently evaluating strategic deployment partners
-                  through a managed pilot program. All published architectures,
-                  modules, and prototypes are shared strictly for evaluation and
-                  partner onboarding. They are not available for open commercial
-                  licensing, public purchase, or automated subscription. To
-                  discuss custom pilot arrangements or technical alignment with
-                  our team, contact us directly at info@maridots.com.
+                  Maridots is an internationally oriented, Tunisia-led project
+                  inviting selective pilot partners to test the platform and
+                  co-create around revenue assurance, efficiency, and security.
+                  We believe sophisticated capability should be available to
+                  every enterprise — not reserved for those who can absorb
+                  legacy market pricing. Published architectures are for
+                  evaluation and partner onboarding only; they are not available
+                  for open commercial licensing, public purchase, or automated
+                  subscription. Pre-incorporation: no corporate tax registration
+                  yet. Contact info@maridots.com.
                 </p>
                 <Link
                   href="/notice"

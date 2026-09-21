@@ -1,21 +1,27 @@
-import { Blocks, CloudOff, FileCheck, Radar, ShieldCheck } from "lucide-react";
+import {
+  Gauge,
+  ShieldCheck,
+  TrendingUp,
+  Timer,
+  Workflow,
+} from "lucide-react";
 
 import { FIRM_VALUES } from "@/lib/firm-values";
 import { Reveal, Stagger, StaggerItem } from "@/components/marketing/motion";
 
 const ICONS = {
-  compliance: FileCheck,
-  "offline-audits": CloudOff,
-  risk: Radar,
-  flexibility: Blocks,
+  revenue: TrendingUp,
+  latency: Timer,
+  efficiency: Workflow,
+  productivity: Gauge,
   security: ShieldCheck,
 } as const;
 
 const CAPABILITY_CHIPS = [
-  "30/60/90 expiry watch",
-  "Offline-capable audits",
-  "AI-assisted insights",
-  "Smart migration",
+  "International revenue assurance",
+  "Sophisticated tools for every fleet scale",
+  "Lower operational latency",
+  "Security by design",
 ];
 
 export function FirmValues() {

@@ -145,7 +145,7 @@ export function SiteHeader() {
             className="group hidden items-center gap-2 rounded-full bg-ocean-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_30px_-12px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-700 md:inline-flex md:px-4"
           >
             <span className="lg:hidden">Contact</span>
-            <span className="hidden lg:inline">Contact the pilot team</span>
+            <span className="hidden lg:inline">Discuss a pilot</span>
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
           </a>
           <button
@@ -217,7 +217,7 @@ export function SiteHeader() {
                     onClick={() => setMenuOpen(false)}
                     className="flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-ocean-600 px-4 py-3.5 text-center text-base font-semibold text-white shadow-[0_12px_28px_-16px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-700"
                   >
-                    Contact the pilot team
+                    Discuss a pilot
                     <ArrowRight className="size-4" />
                   </a>
                 </div>

@@ -1,33 +1,35 @@
 /**
- * The five canonical Maridots firm values. Anywhere the site presents "what we
- * stand for" — hero strip, footer trust row — it reads from this list. Modules,
- * knowledge, integrations, and support are capabilities and live in their own
- * sections; they are deliberately not values.
+ * Outcome-led capabilities shown in the firm-values strip and footer trust row.
+ * Framed as value the platform is designed to deliver — not as a commercial offer.
  */
 export const FIRM_VALUES = [
   {
-    id: "compliance",
-    label: "Compliance",
-    detail: "Certificates, audits, and regulatory control in one system",
+    id: "revenue",
+    label: "Revenue assurance",
+    detail:
+      "Reduce detention, off-hire, and audit-driven disruption that erodes voyage economics",
   },
   {
-    id: "offline-audits",
-    label: "Offline audits",
-    detail: "Run and complete audits with limited connectivity; sync when online",
+    id: "latency",
+    label: "Lower operational latency",
+    detail:
+      "Close the gap between vessel events and shore action with one live compliance record",
   },
   {
-    id: "risk",
-    label: "Risk management",
-    detail: "Snap Hazards → Reports → CAPA → Bowtie / Fishbone → PTW",
+    id: "efficiency",
+    label: "Operational efficiency",
+    detail:
+      "Replace spreadsheet and email hand-offs with structured workflows across shore and vessel",
   },
   {
-    id: "flexibility",
-    label: "High flexibility",
-    detail: "Modular scopes, fleet-to-bureau workspace perspectives",
+    id: "productivity",
+    label: "Productivity & performance",
+    detail:
+      "Give DPAs and quality teams clearer priorities, faster closure, and measurable follow-through",
   },
   {
     id: "security",
-    label: "Appreciated security",
+    label: "Maintained security",
     detail:
       "RBAC, signed approvals, PIN-authenticated high-liability actions, full traceability",
   },

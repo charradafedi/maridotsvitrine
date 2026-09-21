@@ -51,11 +51,14 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="mt-5 max-w-xl text-[0.95rem] leading-7 text-slate-200 sm:mt-7 sm:text-lg sm:leading-8 sm:text-slate-300"
           >
-            Enterprise Fleet Intelligence &amp; Risk Control. Unify compliance
-            management, automated risk assessment, and real-time alert
-            generation to protect revenue, optimize operational efficiency, and
-            drive sustainability—all built on a foundation of uncompromised
-            security and architectural flexibility.
+            An international vision for enterprise fleet intelligence: revenue
+            assurance, lower operational latency, higher productivity, and
+            maintained security — unified compliance, risk assessment, and
+            real-time alerts in one controlled record. Sophisticated capability
+            should be within reach of every enterprise, not only those who can
+            absorb legacy market pricing. Selective international pilot partners
+            are invited to test the platform and co-create with our Tunisia-led
+            team.
           </motion.p>
 
           <motion.div
@@ -68,7 +71,7 @@ export function Hero() {
               href="#contact"
               className="group inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-ocean-600 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_18px_40px_-16px_rgba(2,132,199,0.9)] transition-colors hover:bg-ocean-500 sm:w-auto"
             >
-              Write to the pilot team
+              Discuss a pilot
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -76,7 +79,7 @@ export function Hero() {
               className="group inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full border border-white/25 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-colors hover:border-white/40 hover:bg-white/15 sm:w-auto"
             >
               <Play className="size-3.5 fill-current" />
-              Explore the managed preview
+              See platform capabilities
             </a>
           </motion.div>
 

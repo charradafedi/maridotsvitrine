@@ -15,10 +15,11 @@ import { Support } from "@/components/marketing/support";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Maridots | Enterprise Pilot Program · Maritime Compliance & Risk",
+    absolute:
+      "Maridots | International Pilot · Revenue Assurance for Every Enterprise",
   },
   description:
-    "Maridots is evaluating strategic deployment partners through a managed enterprise pilot program for maritime compliance and risk control, with administrative oversight in Tunisia. Published architectures are for evaluation and partner onboarding — not for open commercial licensing or public purchase.",
+    "International, Tunisia-led maritime compliance and risk platform. Selective pilots focused on revenue assurance, lower latency, efficiency, productivity, and security — sophisticated capability for every enterprise scale. Pre-incorporation co-creation only; not open for public purchase or licensing.",
   alternates: { canonical: "/" },
 };
 
@@ -29,7 +30,7 @@ const ORGANISATION_SCHEMA = {
   url: "https://maridots.com",
   logo: "https://maridots.com/logo.png",
   description:
-    "Enterprise maritime compliance and risk platform in a managed pilot program. Architectures and prototypes are shared for evaluation and partner onboarding; not offered for open commercial licensing or public purchase.",
+    "International, Tunisia-led, pre-incorporation maritime compliance and risk project. Selective pilots and co-creation focused on revenue assurance for every enterprise scale. Not offered for open commercial licensing or public purchase.",
   email: "info@maridots.com",
 };
 

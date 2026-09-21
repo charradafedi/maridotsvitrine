@@ -22,7 +22,7 @@ const COLUMNS = [
     links: [
       { label: "Enablement", href: "/#support" },
       { label: "Collaboration", href: "/#plans" },
-      { label: "Contact the pilot team", href: "/#contact" },
+      { label: "Discuss a pilot", href: "/#contact" },
     ],
   },
   {
@@ -64,10 +64,11 @@ export function SiteFooter() {
               className="h-20 w-auto rounded-xl bg-white p-2 sm:h-28 md:h-32"
             />
             <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">
-              Enterprise maritime compliance and risk control, currently
-              evaluating strategic deployment partners through a managed pilot
-              program. Administrative oversight in Tunisia. Inquiries:
-              info@maridots.com.
+              An international, Tunisia-led platform for maritime compliance and
+              risk — built around revenue assurance, lower latency, operational
+              efficiency, productivity, and maintained security. Sophisticated
+              capability for every enterprise scale. Selective pilots and
+              co-creation only; pre-incorporation. info@maridots.com
             </p>
             <ul className="mt-6 space-y-2.5 text-sm text-slate-400">
               <li className="flex items-center gap-2.5">
@@ -107,8 +108,8 @@ export function SiteFooter() {
             © {year} Maridots. All rights reserved.
           </p>
           <p className="text-xs text-slate-500">
-            Enterprise pilot program · Tunisia administrative oversight · not
-            open for public purchase or licensing.
+            International vision · Tunisia-led stewardship · pilot &amp;
+            co-creation · not open for public purchase or licensing.
           </p>
         </div>
       </div>

@@ -4,14 +4,14 @@ import { ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "Privacy notice",
   description:
-    "What Maridots does with the details submitted through maridots.com. Messages are handled by the international team with administrative oversight in Tunisia.",
+    "What the Tunisia-led Maridots team does with details submitted through maridots.com during the pre-incorporation pilot phase.",
   robots: { index: false, follow: true },
 };
 
 const SECTIONS = [
   {
     heading: "1. Who handles your data",
-    body: "Maridots is an enterprise maritime compliance and risk initiative jointly developed and managed with administrative oversight in Tunisia. Messages sent through this site are processed by the international team and reach the info@maridots.com mailbox. For any question about your data, write to info@maridots.com.",
+    body: "Maridots is an internationally oriented, pre-incorporation project governed primarily by a Tunisian team. No corporate entity or tax registration has been established yet. Messages sent through this site are processed by that team and reach the info@maridots.com mailbox. For any question about your data, write to info@maridots.com.",
   },
   {
     heading: "2. What we collect",
@@ -19,15 +19,15 @@ const SECTIONS = [
   },
   {
     heading: "3. Why we collect it",
-    body: "So the international team can reply to you and discuss evaluation, technical alignment, or selective pilot onboarding. Your details are not used for marketing, profiling, or automated follow-up; they are not sold, rented, or shared for advertising; and no open commercial contract is concluded through this site.",
+    body: "So the Tunisia-led team can reply to you and discuss evaluation, pilot participation, or co-creation. Your details are not used for marketing, profiling, or automated follow-up; they are not sold, rented, or shared for advertising; and no commercial contract is concluded through this site.",
   },
   {
     heading: "4. Who processes it for us",
-    body: "Form submissions are delivered by email through Resend (Resend, Inc.), our transactional email provider, and are then held in the international team mailbox. Hosting and content delivery providers process standard technical request data such as IP address and user agent in their server logs. [Placeholder — name the hosting provider once deployment is final.]",
+    body: "Form submissions are delivered by email through Resend (Resend, Inc.), our transactional email provider, and are then held in the team mailbox. The site is hosted on Cloudflare Workers; Cloudflare may process standard technical request data such as IP address and user agent in server logs.",
   },
   {
     heading: "5. How long we keep it",
-    body: "Correspondence is kept for as long as the conversation is relevant to the pilot or evaluation engagement, and deleted on request or once the exchange is closed. Ask us to delete it at any time and we will.",
+    body: "Correspondence is kept for as long as the conversation is relevant to the pilot or co-creation engagement, and deleted on request or once the exchange is closed. Ask us to delete it at any time and we will.",
   },
   {
     heading: "6. Your choices",
@@ -35,11 +35,11 @@ const SECTIONS = [
   },
   {
     heading: "7. International handling",
-    body: "Because the initiative is managed across borders — including administrative oversight in Tunisia — and uses service providers that may process data outside your country of residence, correspondence may be handled in more than one jurisdiction, under the safeguards those providers make available. [Placeholder — confirm the final provider set and their transfer mechanisms before launch.]",
+    body: "Because the Tunisia-led team and service providers (including Resend and Cloudflare) may process data in more than one country, correspondence may be handled across jurisdictions under the safeguards those providers make available.",
   },
   {
     heading: "8. Changes",
-    body: "This notice covers the managed pilot phase and would be replaced by a full privacy policy before any open commercial service were offered. No such open commercial service is offered today.",
+    body: "This notice covers the pre-incorporation pilot phase. It will be replaced by a fuller privacy policy if and when a corporate entity is formed and any broader service is offered. No open commercial service is offered today.",
   },
 ];
 
@@ -50,8 +50,7 @@ export default function PrivacyPage() {
       <h1 className="display mt-3 text-4xl text-ink">Privacy notice</h1>
       <p className="mt-4 leading-7 text-ink-muted">
         What happens to the details you submit through maridots.com during the
-        managed pilot phase. Messages are handled by the international team with
-        administrative oversight in Tunisia.
+        Tunisia-led, pre-incorporation pilot phase.
       </p>
 
       <div className="card mt-8 border-ocean-200 bg-ocean-50/60 p-6">
@@ -63,8 +62,8 @@ export default function PrivacyPage() {
             <h2 className="font-semibold text-ink">The short version</h2>
             <p className="mt-2 leading-7 text-ink-muted">
               We collect only what you put in the contact form, use it solely to
-              reply about evaluation or pilot discussions, never sell or share
-              it for advertising, and delete it whenever you ask.
+              reply about pilots or co-creation, never sell or share it for
+              advertising, and delete it whenever you ask.
             </p>
           </div>
         </div>

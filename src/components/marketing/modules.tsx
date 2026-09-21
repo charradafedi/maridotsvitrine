@@ -251,7 +251,7 @@ export function Modules() {
           <SectionHeading
             eyebrow="Modules"
             title="The Maridots platform module map"
-            description="Each pillar below is part of the managed preview — architectures and prototypes shared for evaluation with selective pilot partners. Select a pillar to review its scope. Nothing here is offered for open commercial licensing, public purchase, or automated subscription."
+            description="Each pillar below is part of an internationally oriented managed preview — capabilities designed for revenue assurance, faster response, efficiency, and secure operations across every enterprise scale. Shared for selective pilots and co-creation with our Tunisia-led team. Nothing here is offered for open commercial licensing, public purchase, or automated subscription."
           />
           <Reveal delay={0.1}>
             <p className="hidden text-sm text-ink-subtle lg:block">

@@ -45,7 +45,7 @@ export function Security() {
             <SectionHeading
               eyebrow="Security & monitoring"
               title="Controlled access, signed approvals, provable history"
-              description="Compliance data is liability data. It has to be restricted to the right people, attributable to a named approver, and impossible to quietly revise after the fact."
+              description="Compliance data is liability data. Maintaining security — restricted access, attributable approvals, and immutable history — protects both operational integrity and commercial continuity."
             />
             <Reveal delay={0.12}>
               <div className="mt-8 overflow-hidden rounded-2xl border border-line shadow-[0_30px_60px_-45px_rgba(15,23,42,0.7)]">
